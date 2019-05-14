@@ -1,0 +1,6 @@
+<%= @task.details %>
+<%if @task.completed == false%> 
+<p>This tasks is not completed yet</p> 
+<%end  %>
+<br>
+<%= link_to "Back to my list", '/index'%>
